@@ -281,7 +281,7 @@ var saveTasks = function(){
 //loading saved data
 var loadTasks = function(){
     //retrieve data and store it in tasks array
-    var tasks= localStorage.getItem("tasks");
+    tasks= localStorage.getItem("tasks");
     //check to see if there is any data
     if (!tasks){
         tasks = [];
